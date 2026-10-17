@@ -1,0 +1,18 @@
+import {DisplayMode, Engine} from "../../src/engine";
+import {calculateExPixelConversion, Menu} from "./ui";
+import {loader} from "./resources";
+
+const game = new Engine({
+    canvasElementId: 'game',
+    width: 800,
+    height: 600,
+    pixelArt: true,
+    displayMode: DisplayMode.FitScreen
+});
+
+game.screen.events.on('resize', () => calculateExPixelConversion(game.screen));
+
+game.start(loader).then(() => {
+    calculateExPixelConversion(game.screen);
+    new Menu(game.currentScene);
+});

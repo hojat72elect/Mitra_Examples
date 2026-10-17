@@ -4,7 +4,14 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "example1_flappy_bird": "vite --open /src/example1_flappy_bird/",
+    "example2_platformer": "vite --open /src/example2_platformer/",
+    "example3_space_shooter": "vite --open /src/example3_space_shooter/",
+    "example4_breakout": "vite --open /src/example4_breakout/",
+    "example5_islander": "vite --open /src/example5_islander/",
+    "example7_menu": "vite --open /src/example7_menu/",
+    "example8_matter_js": "vite --open /src/example8_matter_js/"
   },
   "devDependencies": {
     "typescript": "~6.0.2",
