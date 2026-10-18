@@ -1,4 +1,4 @@
-import {Random, Timer, vec} from  "../../src/engine";
+import {Random, Timer, vec} from  "mitra_engine";
 import {Pipe} from "./Pipe.ts";
 import {GameConfig} from "./GameConfig.ts";
 import {Level} from "./Level.ts";

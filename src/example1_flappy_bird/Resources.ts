@@ -1,4 +1,4 @@
-import {ImageSource, ImageWrapping, Sound} from  "../../src/engine";
+import {ImageSource, ImageWrapping, Sound} from  "mitra_engine";
 
 export const Resources = {
     // Relative to /public in vite

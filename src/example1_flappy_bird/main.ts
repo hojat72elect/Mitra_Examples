@@ -1,4 +1,4 @@
-import {Color, DisplayMode, Engine, Loader, vec} from  "../../src/engine";
+import {Color, DisplayMode, Engine, Loader, vec} from "mitra_engine";
 import {Resources} from './Resources.ts';
 import {Level} from './Level.ts';
 import {initializeMuteButton} from './Ui.ts';

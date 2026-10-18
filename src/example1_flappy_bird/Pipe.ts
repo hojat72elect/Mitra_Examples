@@ -1,4 +1,4 @@
-import {Actor, Color, vec, Vector} from  "../../src/engine";
+import {Actor, Color, vec, Vector} from  "mitra_engine";
 import {GameConfig} from "./GameConfig.ts";
 import {Resources} from "./Resources.ts";
 

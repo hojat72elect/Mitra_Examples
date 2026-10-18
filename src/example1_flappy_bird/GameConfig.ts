@@ -1,4 +1,4 @@
-import {vec} from "../../src/engine";
+import {vec} from "mitra_engine";
 
 export const GameConfig = {
     BirdStartPos: vec(200, 300),

@@ -10,7 +10,7 @@ import {
     Sprite,
     SpriteSheet,
     vec
-} from  "../../src/engine";
+} from "mitra_engine";
 import {Resources} from "./Resources.ts";
 import {GameConfig} from "./GameConfig.ts";
 import {Level} from "./Level.ts";

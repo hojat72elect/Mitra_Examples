@@ -1,4 +1,4 @@
-import {Actor, Collider, vec, Vector} from  "../../src/engine";
+import {Actor, Collider, vec, Vector} from  "mitra_engine";
 import {Level} from "./Level.ts";
 import {GameConfig} from "./GameConfig.ts";
 import {Resources} from "./Resources.ts";
