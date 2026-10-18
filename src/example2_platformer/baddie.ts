@@ -11,7 +11,7 @@ import {
     Side,
     vec,
     Vector,
-} from  "../../src/engine";
+} from  "mitra_engine";
 
 export class Baddie extends Actor {
     direction: number;

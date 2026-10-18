@@ -10,7 +10,7 @@ import {
     Side,
     vec,
     Vector
-} from "../../src/engine";
+} from "mitra_engine";
 import {botSpriteSheet, Resources} from './resources';
 import {Baddie} from './baddie';
 

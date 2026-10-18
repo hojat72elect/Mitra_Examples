@@ -1,4 +1,4 @@
-import {ImageSource, Loader, Sound, SpriteSheet} from "../../src/engine";
+import {ImageSource, Loader, Sound, SpriteSheet} from "mitra_engine";
 
 // Ensure all resource paths are correct relative to the built output (webpack config)
 export const Resources = {

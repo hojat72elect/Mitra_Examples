@@ -1,4 +1,4 @@
-import {Actor, Animation, CollisionGroupManager, CollisionType, Engine, Shape, vec, Vector} from  "../../src/engine";
+import {Actor, Animation, CollisionGroupManager, CollisionType, Engine, Shape, vec, Vector} from "mitra_engine";
 import {botRedSpriteSheet, npcSprite} from './resources';
 
 export class NPC extends Actor {

@@ -1,4 +1,4 @@
-import {CollisionGroupManager, Engine, Scene} from  "../../src/engine";
+import {CollisionGroupManager, Engine, Scene} from "mitra_engine";
 import {Baddie} from './baddie';
 import {Bot} from './bot';
 import {Floor} from './floor';

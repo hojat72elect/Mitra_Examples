@@ -1,5 +1,5 @@
 import {blockSprite} from './resources';
-import {Actor, CollisionGroupManager, CollisionType, GraphicsGroup, Shape, vec, Vector} from  "../../src/engine";
+import {Actor, CollisionGroupManager, CollisionType, GraphicsGroup, Shape, vec, Vector} from "mitra_engine";
 
 export class Floor extends Actor {
     constructor(x: number, y: number, cols: number, rows: number) {
