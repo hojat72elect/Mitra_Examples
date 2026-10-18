@@ -1,4 +1,4 @@
-import { ImageSource, SpriteSheet, Animation, Loader, FontSource } from "../../src/engine";
+import { ImageSource, SpriteSheet, Animation, Loader, FontSource } from "mitra_engine";
 import CalImage from './cal.png'; 
 import SilkscreenFont from './Silkscreen-Regular.ttf';
 

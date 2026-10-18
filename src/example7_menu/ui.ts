@@ -1,4 +1,4 @@
-import {Actor, Color, Scene, vec, Vector, Screen} from "../../src/engine";
+import {Actor, Color, Scene, vec, Vector, Screen} from "mitra_engine";
 import {IdleAnimation} from "./resources";
 
 export const calculateExPixelConversion = (screen: Screen) => {
