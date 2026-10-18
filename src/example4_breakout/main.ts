@@ -1,4 +1,4 @@
-import {Actor, CollisionStartEvent, CollisionType, Color, Engine, vec,} from "../../src/engine";
+import {Actor, CollisionStartEvent, CollisionType, Color, Engine, vec,} from "mitra_engine";
 
 /**
  * The game window is 800 pixels wide by 600 pixels tall.
