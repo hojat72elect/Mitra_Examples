@@ -1,5 +1,5 @@
-import { ImageFiltering, ImageSource, Loader, Resource } from "../../src/engine";
-import { TiledResource } from "../../src/tiled_plugin";
+import { ImageFiltering, ImageSource, Loader, Resource } from "mitra_engine";
+import { TiledResource } from "mitra_engine/tiled_plugin";
 
 // Import paths to work with Vite
 // Note the ?url suffix

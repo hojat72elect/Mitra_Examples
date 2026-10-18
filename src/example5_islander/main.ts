@@ -1,4 +1,4 @@
-import {Engine} from "../../src/engine";
+import {Engine} from "mitra_engine";
 import { Resources, loader } from './resources';
 
 const game = new Engine({

@@ -1,4 +1,4 @@
-import {Actor, Animation, CollisionType, Color, Debug, Engine, ImageSource, Keys, Ray, Sprite, SpriteSheet, vec, Vector} from "../../src/engine";
+import {Actor, Animation, CollisionType, Color, Debug, Engine, ImageSource, Keys, Ray, Sprite, SpriteSheet, vec, Vector} from "mitra_engine";
 import {Resources} from './resources';
 import {Config} from './config';
 
