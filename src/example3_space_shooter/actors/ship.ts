@@ -12,7 +12,7 @@ import {
     range,
     Util,
     Vector
-} from "../../../src/engine";
+} from "mitra_engine";
 import {explosionSpriteSheet, gameSheet, Sounds} from "../resources";
 import {Config} from "../config";
 import {Bullet} from "./bullet";
@@ -91,10 +91,6 @@ export class Ship extends Actor {
         }
     }
 
-    private stopRegisteringFireThrottleEvent = () => {
-        this.throttleFire = undefined;
-    }
-
     onPostUpdate(engine: Engine, _delta: number) {
         if (stats.hp <= 0 && this.explode) {
             // update game to display game over
@@ -109,13 +105,6 @@ export class Ship extends Actor {
         if (this.pos.y < 0) this.pos.y = 0;
         if (this.pos.x > engine.drawWidth - this.width) this.pos.x = (engine.drawWidth - this.width);
         if (this.pos.y > engine.drawHeight - this.height) this.pos.y = (engine.drawHeight - this.height);
-    }
-
-    private fire = (engine: Engine) => {
-        let bullet = new Bullet(this.pos.x + (this.flipBarrel ? -40 : 40), this.pos.y - 20, 0, Config.playerBulletVelocity, Ship.group);
-        this.flipBarrel = !this.flipBarrel;
-        Sounds.laserSound.play();
-        engine.add(bullet);
     }
 
     handlePointerEvent = (engine: Engine, evt: PointerEvent) => {
@@ -161,5 +150,16 @@ export class Ship extends Actor {
         if (dir.x !== 0 || dir.y !== 0) {
             this.vel = dir.normalize().scale(Config.playerSpeed);
         }
+    }
+
+    private stopRegisteringFireThrottleEvent = () => {
+        this.throttleFire = undefined;
+    }
+
+    private fire = (engine: Engine) => {
+        let bullet = new Bullet(this.pos.x + (this.flipBarrel ? -40 : 40), this.pos.y - 20, 0, Config.playerBulletVelocity, Ship.group);
+        this.flipBarrel = !this.flipBarrel;
+        Sounds.laserSound.play();
+        engine.add(bullet);
     }
 }

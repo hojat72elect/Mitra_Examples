@@ -1,4 +1,4 @@
-import {Color, CoordPlane, Engine, FontUnit, Label, Random, Scene, Timer, vec, Vector} from "../../src/engine";
+import {Color, CoordPlane, Engine, FontUnit, Label, Random, Scene, Timer, vec, Vector} from "mitra_engine";
 import {Ship} from './actors/ship';
 import {HealthBar} from './actors/HealthBar';
 import {stats} from './stats';

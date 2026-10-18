@@ -4,6 +4,7 @@ class Stats {
     public hp: number = Config.totalHp;
     public gameOver: boolean = false;
     public score: number = 0;
+
     public reset() {
         this.hp = Config.totalHp;
         this.gameOver = false;
@@ -12,4 +13,4 @@ class Stats {
 }
 
 const stats = new Stats()
-export { stats }
+export {stats}

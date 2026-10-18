@@ -1,4 +1,4 @@
-import {ImageSource, Loader, Sound, SpriteSheet} from "../../src/engine";
+import {ImageSource, Loader, Sound, SpriteSheet} from "mitra_engine";
 import fighterFile from './assets/fighter.png';
 import enemyFile from './assets/enemy.png';
 import spriteexplosionFile from './assets/spriteexplosion.png';

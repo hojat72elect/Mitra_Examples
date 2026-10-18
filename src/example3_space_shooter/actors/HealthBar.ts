@@ -1,4 +1,4 @@
-import {Actor, Canvas, CollisionType, Color, CoordPlane, Vector} from "../../../src/engine";
+import {Actor, Canvas, CollisionType, Color, CoordPlane, Vector} from "mitra_engine";
 import {Config} from "../config";
 import {stats} from "../stats";
 

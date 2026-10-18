@@ -8,7 +8,7 @@ import {
     PreCollisionEvent,
     Util,
     Vector
-} from "../../../src/engine";
+} from "mitra_engine";
 import {Config} from "../config";
 import {gameSheet} from "../resources";
 import {Baddie} from "./Baddie";

@@ -1,4 +1,4 @@
-import {Actor, Animation, CollisionType, Engine, type MitraGraphicsContext, Vector} from  "../../../src/engine";
+import {Actor, Animation, CollisionType, Engine, type MitraGraphicsContext, Vector} from "mitra_engine";
 
 interface AnimationNode {
     position: Vector,

@@ -10,7 +10,7 @@ import {
     Timer,
     Util,
     Vector
-} from "../../../src/engine";
+} from "mitra_engine";
 import {explosionSpriteSheet, gameSheet, Sounds} from "../resources";
 import {Config} from "../config";
 import {Bullet} from "./bullet";
