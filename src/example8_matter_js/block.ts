@@ -1,4 +1,4 @@
-import {Actor, type ActorArgs, CollisionType, Vector} from "../../src/engine";
+import {Actor, type ActorArgs, CollisionType, Vector} from "mitra_engine";
 import {MatterJsBodyComponent} from "./MatterJsBodyComponent";
 import {MatterJsConstraintComponent} from "./MatterJsConstraintComponent";
 

@@ -1,4 +1,4 @@
-import {Component, Entity, TransformComponent} from "../../src/engine";
+import {Component, Entity, TransformComponent} from "mitra_engine";
 import {Bodies, Body} from 'matter-js';
 
 export class MatterJsBodyComponent extends Component {

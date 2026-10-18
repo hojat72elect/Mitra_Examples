@@ -1,4 +1,4 @@
-import {Query, System, SystemType, TransformComponent, World} from "../../src/engine";
+import {Query, System, SystemType, TransformComponent, World} from "mitra_engine";
 import {MatterJsBodyComponent} from "./MatterJsBodyComponent";
 import Matter from 'matter-js';
 import {MatterJsConstraintComponent} from "./MatterJsConstraintComponent";
