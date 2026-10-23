@@ -8,7 +8,7 @@ import {
     PreCollisionEvent,
     range,
     Timer,
-    Util,
+    contains,
     Vector
 } from "mitra_engine";
 import {explosionSpriteSheet, gameSheet, Sounds} from "../resources";
@@ -79,7 +79,7 @@ export class Baddie extends Actor {
     private onPreCollision(evt: PreCollisionEvent) {
         // only kill a baddie if it collides with something that isn't a baddie or a baddie bullet
         if (!(evt.other instanceof Baddie) &&
-            !Util.contains(Baddie.Bullets, evt.other)) {
+            !contains(Baddie.Bullets, evt.other)) {
             Sounds.explodeSound.play();
             if (this.explode) {
                 animManager.play(this.explode, this.pos);

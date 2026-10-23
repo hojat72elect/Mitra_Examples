@@ -10,7 +10,7 @@ import {
     PointerEvent,
     PreCollisionEvent,
     range,
-    Util,
+   contains,
     Vector
 } from "mitra_engine";
 import {explosionSpriteSheet, gameSheet, Sounds} from "../resources";
@@ -79,7 +79,7 @@ export class Ship extends Actor {
     }
 
     onPreCollision(event: PreCollisionEvent) {
-        if (event.other instanceof Baddie || Util.contains(Baddie.Bullets, event.other)) {
+        if (event.other instanceof Baddie || contains(Baddie.Bullets, event.other)) {
             Sounds.hitSound.play();
             this.actions.blink(300, 300, 3);
             stats.hp -= Config.enemyDamage;

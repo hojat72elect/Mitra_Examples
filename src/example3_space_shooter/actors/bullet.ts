@@ -6,7 +6,7 @@ import {
     CollisionType,
     Engine,
     PreCollisionEvent,
-    Util,
+   removeItemFromArray,
     Vector
 } from "mitra_engine";
 import {Config} from "../config";
@@ -43,6 +43,6 @@ export class Bullet extends Actor {
 
     private killAndRemoveFromBullets() {
         this.kill();
-        Util.removeItemFromArray(this, Baddie.Bullets);
+        removeItemFromArray(this, Baddie.Bullets);
     }
 }

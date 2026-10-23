@@ -20,6 +20,6 @@
   "dependencies": {
     "@types/matter-js": "^0.20.2",
     "matter-js": "^0.20.0",
-    "mitra_engine": "0.1.2"
+    "mitra_engine": "0.1.6"
   }
 }
